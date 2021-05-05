@@ -1,0 +1,35 @@
+{
+  "name": "takehome-challenge",
+  "version": "1.0.0",
+  "description": "My solution to a take home challenge.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass --load-path=node_modules src:dist",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "Blog",
+    "Vanilla",
+    "Framework",
+    "Wordpress",
+    "API"
+  ],
+  "author": "David Parker",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "chokidar": "^3.5.1",
+    "css-loader": "^5.2.4",
+    "postcss-cli": "^8.3.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "vanilla-framework": "^2.29.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "sass": "^1.32.12"
+  }
+}
