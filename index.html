@@ -3,15 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Vanilla using Webpack</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"
+    integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+    crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="dist/style.css" />
+  <title>Take Home Challenge</title>
 </head>
 <body>
-  <section class="p-strip--light is-bordered">
+    <!--
+  <header class="p-strip--dark is-bordered">
     <div class="row">
-      <h1>Hello Vanilla!</h1>
-      <p>This page has been built using Webpack!</p>
+      <h1>Recent Blog Posts</h1>
+      <p>This page is built by David Parker</p>
     </div>
-  </section>
+  </header>
+  -->
+  <main class="p-strip is-deep">
+      <div id="results" class="row u-equal-height"></div>
+  </main>
   <script src="./dist/bundle.js"></script>
 </body>
 </html>

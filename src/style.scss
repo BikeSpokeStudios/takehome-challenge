@@ -1,3 +1,12 @@
-@import 'vanilla-framework/scss/vanilla';
+$color-information: #a87ca0;
+$color-link: #06c;
+$color-link-visited: #06c;
 
+@import 'vanilla-framework/scss/vanilla';
 @include vanilla;
+
+
+div.p-card.blog-card {
+    padding: calc(1rem - 1px);
+    overflow: auto;
+}

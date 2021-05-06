@@ -1557,7 +1557,7 @@ input[type=range]::-moz-range-track {
   height: 4px;
 }
 input[type=range]::-moz-range-progress {
-  background-color: #24598f;
+  background-color: #a87ca0;
   border-radius: 0.1875rem;
   height: 4px;
 }
@@ -1584,7 +1584,7 @@ input[type=range]::-ms-track {
   width: calc(100% - (24px / 2));
 }
 input[type=range]::-ms-fill-lower {
-  background: #24598f;
+  background: #a87ca0;
   border: 1px solid rgba(0, 0, 0, 0.56);
   border-radius: 0.1875rem;
 }
@@ -1910,7 +1910,7 @@ textarea.has-information, .has-information[type=text],
 .has-information[type=url],
 .has-information[type=tel],
 select.has-information {
-  border: 1px solid #24598f;
+  border: 1px solid #a87ca0;
 }
 
 .p-switch:disabled + .p-switch__slider, .p-checkbox__input:disabled + .p-checkbox__label,
@@ -2057,7 +2057,7 @@ label.has-success {
   color: #0e8620;
 }
 label.has-information {
-  color: #24598f;
+  color: #a87ca0;
 }
 
 [type=file] {
@@ -2193,7 +2193,7 @@ a:hover {
   text-decoration: underline;
 }
 a:visited {
-  color: #7d42b8;
+  color: #06c;
 }
 
 ol,
@@ -4454,7 +4454,7 @@ h4 [class*=p-icon],
 }
 
 .p-label--updated {
-  background-color: #24598f;
+  background-color: #a87ca0;
   color: #fff;
 }
 
@@ -5918,7 +5918,7 @@ h1.p-stepped-list__title + .p-stepped-list__content {
 }
 .p-notification--information::before {
   top: 0;
-  background-color: #24598f;
+  background-color: #a87ca0;
   content: "";
   position: absolute;
 }
@@ -6121,7 +6121,7 @@ h1.p-stepped-list__title + .p-stepped-list__content {
   margin-bottom: 0.5rem;
 }
 .p-search-and-filter .p-search-and-filter__search-container .p-search-and-filter__selected-count {
-  color: #24598f;
+  color: #a87ca0;
   cursor: pointer;
   position: absolute;
   right: 0.5rem;
@@ -6235,7 +6235,7 @@ h1.p-stepped-list__title + .p-stepped-list__content {
 }
 .p-filter-panel-section .p-filter-panel-section__counter {
   bottom: 0;
-  color: #24598f;
+  color: #a87ca0;
   cursor: pointer;
   position: absolute;
   right: 0.25rem;
@@ -8902,7 +8902,7 @@ th.u-hide--large {
   position: relative;
 }
 .u-visualise-font-metrics::before {
-  border-bottom-color: rgba(36, 89, 143, 0.5);
+  border-bottom-color: rgba(168, 124, 160, 0.5);
   border-bottom-style: solid;
   border-top-color: rgba(14, 134, 32, 0.5);
   border-top-style: solid;
@@ -8928,6 +8928,10 @@ th.u-hide--large {
   .u-no-print {
     display: none !important;
   }
+}
+div.p-card.blog-card {
+  padding: calc(1rem - 1px);
+  overflow: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
