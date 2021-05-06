@@ -8939,6 +8939,12 @@ th.u-hide--large {
   font-size: 1.1rem;
 }
 
+.p-card__content.post-title {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
 .card-bottom {
   margin-top: auto;
 }

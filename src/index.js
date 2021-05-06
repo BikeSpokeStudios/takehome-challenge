@@ -10,7 +10,7 @@ function renderCard(post) {
                 <h4 class="tag-name">${(post._embedded["wp:term"][1][0].name || " ").toUpperCase()}</h4>
                 <hr>
                 <img src="${post.featured_media}">
-                <h3 class="p-card__content">
+                <h3 class="p-card__content post-title">
                     <a href="${post.link}">${post.title.rendered}</a>
                 </h3>
                 <p class="p-heading--6">By <a 
